@@ -1,7 +1,7 @@
 #sudo npm init
-#touch inde.js
+#touch index.js
 
-const express = require('express');
+```` const express = require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
@@ -11,4 +11,4 @@ app.get('/',(req,res)=>{
 
 app.listen(3000,()=>{
     console.log("app is working on poer 3000");
-});
+}); ````
