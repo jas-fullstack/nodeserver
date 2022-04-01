@@ -4,7 +4,7 @@
 ```` const express = require('express');
 var bodyParser = require("body-parser");
 const app = express();
-app.use(bodyParser())
+app.use(bodyParser());
 app.get('/',(req,res)=>{
     console.log("hi");
     res.send("basic app working")
