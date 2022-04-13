@@ -65,8 +65,8 @@ function strArr(arr){
 console.log(strArr(["1, 3, 4, 7, 13, 15", "1, 2, 4, 13, 15"]))
 ````
 
+#### reverse number
 ````
-###reverse number
 function reverseString(str) {
     var newString = "";
 
