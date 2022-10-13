@@ -2,18 +2,22 @@
 #### touch index.js
 
 ```` 
-const express = require('express');
-var bodyParser = require("body-parser");
+const express = require("express");
 const app = express();
-app.use(bodyParser());
-app.get('/',(req,res)=>{
-    console.log("hi");
-    res.send("basic app working")
+const bodyparser = require("body-parser");
+
+app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({ extended: true }));
+
+app.post("/",(req,res)=>{
+ 
+    console.log(req.body)
+    res.send("{'data':200}");
 });
 
-app.listen(3000,()=>{
-    console.log("app is working on poer 3000");
-}); 
+app.listen(3000, ()=>{
+    console.log("server is running on 3000 port")
+}) 
 ````
 ### sort number with loop 
 ````
