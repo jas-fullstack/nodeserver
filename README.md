@@ -84,6 +84,15 @@ function reverseString(str) {
 console.log(reverseString('hello'));
 ````
 #### Fabonic series..
+//out put  : 1
+1
+2
+3
+5
+8
+13
+21
+34
 
 ```` const number =10
 let n1 = 0, n2 = 1, nextTerm;
