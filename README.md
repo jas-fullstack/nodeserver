@@ -105,3 +105,7 @@ for (let i = 1; i <= number; i++) {
     n2 = nextTerm;
 }
 ````
+
+
+
+
